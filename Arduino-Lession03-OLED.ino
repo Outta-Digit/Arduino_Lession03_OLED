@@ -10,7 +10,7 @@ void setup()
 void loop()
 {
 
-    display.clear()  // 把螢幕清除
+    display.clear() ; // 把螢幕清除
     display.setFont(ArialMT_Plain_10);
     display.drawString(0 , 0 , "Hello World!");
 
