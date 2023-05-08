@@ -1,7 +1,5 @@
 #pragma once
 
-#pragma once
-
 #include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
 #include "SSD1306Wire.h"
 
@@ -14,4 +12,8 @@ void SetOLED(){
     display.init();
     display.flipScreenVertically();
 
+
+
+
 }
+
