@@ -15,5 +15,6 @@ void loop()
     display.drawString(0 , 0 , "Hello World!");
 
     display.display();
+    delay(1000);
     
 }
